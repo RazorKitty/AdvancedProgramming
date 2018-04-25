@@ -1,0 +1,40 @@
+<->
+<F>c:\users\515817\source\repos\advancedprogramming\acw_wordsearch\WordSearch.h
+<c>MRM-49
+<b>Class 'WordSearch' shall declare a copy constructor
+<l>16
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>CODSTA-CPP-54
+<b>Member function 'ReadAdvancedPuzzle' should be declared as const
+<l>46
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>CODSTA-CPP-54
+<b>Member function 'ReadAdvancedDictionary' should be declared as const
+<l>50
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>CODSTA-CPP-54
+<b>Member function 'SolvePuzzleAdvanced' should be declared as const
+<l>99
+<k>18
+<s>false
+<N>
+<f>
+<L>0

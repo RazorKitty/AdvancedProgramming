@@ -3,8 +3,8 @@
 #include <fstream>
 using namespace std;
 
-WordSearch::WordSearch(const char * const filename) {
-	outputFile = filename;
+WordSearch::WordSearch(const char * const filename) : outputFile(filename)
+{
 	// Add your code here
 }
 
@@ -16,32 +16,29 @@ void WordSearch::ReadSimplePuzzle() {
 	// Add your code here
 	fstream file(puzzleName);
 	int length;
-	if (file.is_open())
+
+	file >> length;
+	for (int y = 0; y < 9; y++)
 	{
-		file >> length;
-		for (int y = 0; y < 9; y++)
+		for (int x = 0; x < 9; x++)
 		{
-			for (int x = 0; x < 9; x++)
-			{
-				file >> simpleGrid[y][x];
-			}
+			file >> simpleGrid[y][x];
 		}
 	}
+
 	// grid is loaded	
 }
 
 void WordSearch::ReadSimpleDictionary() {
 	// Add your code here
 	fstream file(dictionaryName);
-	if (file.is_open())
+	string line;
+	while (!file.eof())
 	{
-		string line;
-		while (!file.eof())
-		{
-			file >> line;
-			simpleDictionary.push_back(line);
-		}
+		file >> line;
+		simpleDictionary.push_back(line);
 	}
+
 	foundWords.reserve(simpleDictionary.size());
 	//dictionary loaded
 }
@@ -80,7 +77,7 @@ void WordSearch::SolvePuzzleSimple() {
 							if (simpleGrid[_y][_x] != simpleDictionary[word][letter])
 								goto NextDirection;
 							// keep going till we finish the word
-							if (letter + 1 == (int)simpleDictionary[word].size())
+							if (letter + 1 == simpleDictionary[word].size())
 							{// we have the word!!
 								foundWords.push_back(FoundWord(simpleDictionary[word], y, x));
 								goto NextWord;
