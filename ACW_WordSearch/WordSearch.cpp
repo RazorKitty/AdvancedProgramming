@@ -1,4 +1,5 @@
 #include "WordSearch.h"
+#include "Cell.h"
 #include <iostream>
 #include <fstream>
 using namespace std;
@@ -25,6 +26,7 @@ void WordSearch::ReadSimplePuzzle() {
 			file >> simpleGrid[y][x];
 		}
 	}
+	//file.close();
 
 	// grid is loaded	
 }
@@ -36,15 +38,32 @@ void WordSearch::ReadSimpleDictionary() {
 	while (!file.eof())
 	{
 		file >> line;
-		simpleDictionary.push_back(line);
+		simpleDictionary.push_back(Word(line));
 	}
+	//file.close();
 
-	foundWords.reserve(simpleDictionary.size());
+	//foundWords.reserve(simpleDictionary.size());
 	//dictionary loaded
 }
 
 void WordSearch::ReadAdvancedPuzzle() {
 	// Add your code here
+	fstream file(puzzleName);
+	int length;
+	file >> length;
+	advancedGrid = new Cell*[length];
+	for (int i = 0; i < length; i++)
+	{
+		advancedGrid[i] = new Cell[length];
+	}
+	for (int y = 0; y < length; y++)
+	{
+		for (int x = 0; x < length; x++)
+		{
+			//file >> advancedGrid[y][x];
+		}
+	}
+
 }
 
 void WordSearch::ReadAdvancedDictionary() {
@@ -58,8 +77,10 @@ void WordSearch::SolvePuzzleSimple() {
 		{
 			for (int x = 0; x < 9; x++)
 			{
+				cellVisits++;
+				dictionaryVisits++;
 				//we found the first character
-				if (simpleGrid[y][x] == simpleDictionary[word][0])
+				if (simpleGrid[y][x] == simpleDictionary[word].word[0])
 				{
 					// now we have to match the rest
 					// pick a direction
@@ -67,19 +88,25 @@ void WordSearch::SolvePuzzleSimple() {
 					{
 						int _y = y;
 						int _x = x;
-						for (int letter = 1; letter < simpleDictionary[word].size(); letter++)
+						dictionaryVisits++;
+						for (int letter = 1; letter < simpleDictionary[word].word.size(); letter++)
 						{
 							_y += directionalOffSets[direction][0];
 							_x += directionalOffSets[direction][1];
 							// bounds checking
 							if (_y < 0 || _x < 0)
 								goto NextDirection;
-							if (simpleGrid[_y][_x] != simpleDictionary[word][letter])
+							cellVisits++;
+							dictionaryVisits++;
+							if (simpleGrid[_y][_x] != simpleDictionary[word].word[letter])
 								goto NextDirection;
 							// keep going till we finish the word
-							if (letter + 1 == simpleDictionary[word].size())
+							dictionaryVisits++;
+							if (letter + 1 == simpleDictionary[word].word.size())
 							{// we have the word!!
-								foundWords.push_back(FoundWord(simpleDictionary[word], y, x));
+								//foundWords.push_back(FoundWord(simpleDictionary[word], y, x));
+								simpleDictionary[word].y = y;
+								simpleDictionary[word].x = x;
 								goto NextWord;
 							}
 						}
@@ -96,19 +123,21 @@ void WordSearch::SolvePuzzleSimple() {
 
 }
 
+
+
+
 void WordSearch::SolvePuzzleAdvanced() {
 	// Add your code here
+
 }
 
 void WordSearch::WriteResults(const double loadTime, const double solveTime) const {
 	// Add your code here
-	cout << "NUMBER_OF_WORDS_MATCHED " << foundWords.size() + 1 << endl;
+	cout << "NUMBER_OF_WORDS_MATCHED " << "" << endl;
 	cout << "WORDS_MATCHED_IN_GRID" << endl;
-	for (int i = 0; i < foundWords.size(); i++)
-	{
-		cout << foundWords[i].startX << " " << foundWords[i].startY << " " << foundWords[i].word << endl;
-	}
+	cout << "NUMBER_OF_GRID_CELLS_VISITED " << cellVisits << endl;
 	cout << "TIME_TO_POPULATE_GRID_STRUCTURE " << loadTime << endl;
 	cout << "TIME_TO_SOLVE_PUZZLE " << solveTime << endl;
+	cout << "NUMBER_OF_DICTIONARY_ENTRIES_VISITED " << dictionaryVisits << endl;
 
 }

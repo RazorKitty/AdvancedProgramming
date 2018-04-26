@@ -1,22 +1,18 @@
 #pragma once
 #include <vector>
 #include <string>
+#include "Cell.h"
 
-struct FoundWord {
-	std::string& word;
-	int startY;
-	int startX;
-	FoundWord();
-	FoundWord(std::string& wordIn, const int startYIn, const int startXIn) :
-		word(wordIn),
-		startY(startYIn),
-		startX(startXIn) {}
+struct Word {
+	std::string word;
+	int y;
+	int x;
+	Word(std::string word) : word(word), y(-1), x(-1) {}
 };
 
 class WordSearch {
 
-	std::vector<std::string> simpleDictionary;
-	std::vector<FoundWord> foundWords;
+	std::vector<Word> simpleDictionary;
 	const int directionalOffSets[8][2]{
 		{ -1, -1 },	//NW
 		{ -1, 0 },	//N
@@ -27,19 +23,13 @@ class WordSearch {
 		{ 1, -1 },	//SW
 		{ 0, -1 }		//W
 	};
-
+	Cell** advancedGrid;
 	char simpleGrid[9][9] = {};
 	const char* puzzleName = "wordsearch_grid.txt";
 	const char* dictionaryName = "dictionary.txt";
 	const char* outputFile;
-
-
-
-
-
-
-
-
+	int cellVisits = 0;
+	int dictionaryVisits = 0;
 
 	// Add your code here
 
@@ -47,6 +37,7 @@ public:
 	explicit WordSearch(const char * const filename);
 	~WordSearch();
 	WordSearch& operator=(WordSearch&);
+	WordSearch(const WordSearch&);
 	void ReadSimplePuzzle();
 	void ReadSimpleDictionary();
 	void ReadAdvancedPuzzle();

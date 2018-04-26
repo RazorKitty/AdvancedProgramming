@@ -1,29 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><ResultsSession>
-   <SessionData configName="08143 rule set" enabledAnalysis="Static" enabledHandlers="com.parasoft.xtest.checkers.api.standards.factory;com.parasoft.xtest.checkers.api.scope.factory;com.parasoft.xtest.checkers.api.metrics.factory" hasViols="true" header="??:ACW_WordSearch:?? ??true??false??" runId="" startTime="1524694852568" tool="c++test">
-      <Authors>
-         <Author id="dev1" name="515817"/>
-      </Authors>
+   <SessionData configName="08143_rule_set" enabledAnalysis="" enabledHandlers="com.parasoft.xtest.checkers.api.scope.factory" header="?? ?? ??false??false??" runId="" startTime="1524728457398" tool="c++test">
+      <Authors/>
       <Selection>
-         <Res id="ACW_WordSearch/ACW_WordSearch"/>
+         <Res id="ACW_WordSearch"/>
       </Selection>
-      <XmlDataFiles file0="C:\Users\515817\Source\Repos\AdvancedProgramming\.parasoft.dat\.solutions\ACW_WordSearch\session_results_report_xml\cs_violations.xml"/>
+      <XmlDataFiles/>
    </SessionData>
-   <Locations>
-      <Loc fsPath="C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.h" loc="ACW_WordSearch/ACW_WordSearch/WordSearch.h" projPath="ACW_WordSearch/ACW_WordSearch" project="ACW_WordSearch"/>
-      <Loc fsPath="C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp" loc="ACW_WordSearch/ACW_WordSearch/WordSearch.cpp" projPath="ACW_WordSearch/ACW_WordSearch" project="ACW_WordSearch"/>
-   </Locations>
-   <CodingStandards>
-      <HistoryData authTsks="4" authors="515817" cvdLn="224" startTime="1524694852568" totLn="224" totTsks="4"/>
-      <TestedFilesDetails>
-         <Total name="Suppressed / Total" supp="0" total="4">
-            <Project name="ACW_WordSearch" supp="0" total="4">
-               <Res loc="ACW_WordSearch/ACW_WordSearch/WordSearch.h" locType="sr" name="WordSearch.h" supp="0" total="1"/>
-               <Res loc="ACW_WordSearch/ACW_WordSearch/WordSearch.cpp" locType="sr" name="WordSearch.cpp" supp="0" total="3"/>
-               <Res name="Main.cpp" supp="0" total="0"/>
-            </Project>
-         </Total>
-      </TestedFilesDetails>
-   </CodingStandards>
-   <MetricsNormal/>
-   <MetricsDetailed/>
+   <Locations/>
 </ResultsSession>
