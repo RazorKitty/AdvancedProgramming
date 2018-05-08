@@ -9,28 +9,26 @@ void Cell::Letter(char l) {
 	letter = l;
 }
 
-Cell::Cell() : letter(0), NW(0), N(0), NE(0), E(0), SE(0), S(0), SW(0), W(0) {}
+Cell::Cell() : letter('\0'), agacentCells{ {nullptr} } {}
 
-Cell::~Cell() {}
-
-void Cell::SetWest(Cell *cell) {
-	W = cell;
-	cell->E = this;
+Cell::~Cell() {
+	for (int i = 0; i < 8; i++)
+	{
+		delete agacentCells[i];
+	}
 }
 
-void Cell::SetNorth(Cell *cell) {
-	N = cell;
-	cell->S = this;
+void Cell::linkCell(Cell * cell, const int & direction) {
+	agacentCells[direction] = cell;
 }
 
-void Cell::SetNorthWest(Cell *cell) {
-	NW = cell;
-	cell->SE = this;
+Cell* Cell::GetCell(const int &direction) {
+	//return agacentCells[direction];
+		return agacentCells[direction];
+
 }
 
-std::fstream & Cell::operator>>(std::fstream & is)
-{
-	is >> letter;
-	return is;
+std::fstream & operator>>(std::fstream & fs, Cell cell) {
+	fs >> cell.letter;
+	return fs;
 }
-
