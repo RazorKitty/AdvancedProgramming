@@ -24,6 +24,7 @@ class WordSearch {
 		{ 0, -1 }		//W
 	};
 	Cell** advancedGrid;
+	int gridSize;
 	char simpleGrid[9][9] = {};
 	const char* puzzleName = "wordsearch_grid.txt";
 	const char* dictionaryName = "dictionary.txt";

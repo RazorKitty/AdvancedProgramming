@@ -36,7 +36,7 @@ int main(int, char **) {
 
 		wrapper.startTimer();
 		ws.ReadAdvancedPuzzle();
-		ws.ReadAdvancedDictionary();
+		ws.ReadSimpleDictionary();
 		const double loadTime = wrapper.stopTimer();
 
 		wrapper.startTimer();
