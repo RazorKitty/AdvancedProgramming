@@ -1,8 +1,28 @@
 <->
 <F>c:\users\515817\source\repos\advancedprogramming\acw_wordsearch\WordSearch.h
+<c>OPT-14
+<b>The parameter 'wordin' of function 'Word' is passed by value
+<l>10
+<k>28
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\users\515817\source\repos\advancedprogramming\acw_wordsearch\Cell.h
+<c>OPT-14
+<b>The parameter 'cell' of function '=' is passed by value
+<l>15
+<k>23
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\users\515817\source\repos\advancedprogramming\acw_wordsearch\Cell.h
 <c>MRM-49
-<b>Class 'WordSearch' shall declare a copy constructor
-<l>16
+<b>Class 'Cell' shall declare a copy assignment operator
+<l>3
 <k>7
 <s>false
 <N>

@@ -7,7 +7,7 @@ struct Word {
 	std::string word;
 	int y;
 	int x;
-	Word(std::string word) : word(word), y(-1), x(-1) {}
+	explicit Word(std::string wordin) : word(wordin), y(-1), x(-1) {}
 };
 
 class WordSearch {
@@ -24,11 +24,11 @@ class WordSearch {
 		{ 0, -1 }		//W
 	};
 	Cell** advancedGrid;
-	int gridSize;
 	char** simpleGrid;
 	const char* puzzleName = "wordsearch_grid.txt";
 	const char* dictionaryName = "dictionary.txt";
 	const char* outputFile;
+	int gridSize;
 	int cellVisits = 0;
 	int dictionaryVisits = 0;
 
@@ -42,7 +42,7 @@ public:
 	void ReadSimplePuzzle();
 	void ReadSimpleDictionary();
 	void ReadAdvancedPuzzle();
-	void ReadAdvancedDictionary();
+	void ReadAdvancedDictionary() const;
 	void SolvePuzzleSimple();
 	void SolvePuzzleAdvanced();
 	void WriteResults(const	double loadTime, const double solveTime) const;

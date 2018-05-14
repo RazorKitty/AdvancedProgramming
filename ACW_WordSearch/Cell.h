@@ -2,16 +2,18 @@
 #include <fstream>
 class Cell
 {
+	Cell* agacentCells[8] = { nullptr };
 	char letter;
-	Cell* agacentCells[8] = {nullptr};
+
 
 public:
-    const char& Letter();
-	void Letter(char l);
+    const char Letter() const;
+	void Letter(const char l);
 	Cell();
 	~Cell();
+	Cell(const Cell &cell);
+	Cell& operator=(Cell cell);
 	void linkCell(Cell *cell, const int &direction);
-	Cell* GetCell(const int &direction);
-	friend std::fstream& operator>>(std::fstream& fs, Cell cell);
+	Cell* GetCell(const int &direction) const;
 };
 

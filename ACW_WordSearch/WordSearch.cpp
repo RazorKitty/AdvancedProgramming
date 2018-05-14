@@ -4,13 +4,34 @@
 #include <fstream>
 using namespace std;
 
-WordSearch::WordSearch(const char * const filename) : outputFile(filename)
-{
-	// Add your code here
+WordSearch::WordSearch(const char * const filename) : advancedGrid(nullptr), simpleGrid(nullptr), outputFile(filename), gridSize(0) {
+	
 }
 
 WordSearch::~WordSearch() {
-	// Add your code here
+	//if (advancedGrid)
+	//{
+	//	for (int y = 0; y < gridSize; ++y)
+	//	{
+	//		for (int x = 0; x < gridSize; ++x)
+	//		{
+	//			delete &advancedGrid[y][x];
+	//		}
+	//	}
+	//	delete[] advancedGrid;
+	//}
+	
+	//if (simpleGrid)
+	//{
+	//	for (int y = 0; y < gridSize; ++y)
+	//	{
+	//		for (int x = 0; x < gridSize; ++x)
+	//		{
+	//			delete &simpleGrid[y][x];
+	//		}
+	//	}
+	//	delete[] simpleGrid;
+	//}
 }
 
 void WordSearch::ReadSimplePuzzle() {
@@ -29,7 +50,6 @@ void WordSearch::ReadSimplePuzzle() {
 }
 
 void WordSearch::ReadSimpleDictionary() {
-	// Add your code here
 	fstream file(dictionaryName);
 	string line;
 	while (!file.eof())
@@ -40,7 +60,6 @@ void WordSearch::ReadSimpleDictionary() {
 }
 
 void WordSearch::ReadAdvancedPuzzle() {
-	// Add your code here
 	fstream file(puzzleName);
 	file >> gridSize;
 	advancedGrid = new Cell*[gridSize];
@@ -56,8 +75,8 @@ void WordSearch::ReadAdvancedPuzzle() {
 			advancedGrid[y][x].Letter(tmp);
 			for (int direction = 0; direction < 8; ++direction)
 			{
-				int _y = y + directionalOffSets[direction][0];
-				int _x = x + directionalOffSets[direction][1];
+				const int _y = y + directionalOffSets[direction][0];
+				const int _x = x + directionalOffSets[direction][1];
 				if (-1 < _y && _y < gridSize && -1 < _x && _x < gridSize)
 					advancedGrid[y][x].linkCell(&advancedGrid[_y][_x], direction);
 				else
@@ -68,8 +87,7 @@ void WordSearch::ReadAdvancedPuzzle() {
 
 }
 
-void WordSearch::ReadAdvancedDictionary() {
-	// Add your code here
+void WordSearch::ReadAdvancedDictionary() const {
 	cout << "THIS METHOD IS NOT IMPLEMETED" << endl;
 }
 
