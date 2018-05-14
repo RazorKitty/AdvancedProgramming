@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<mergePnt id="csViolations">
-  <StdViols>
-    <StdViol sev="3" ln="46" cat="CODSTA-CPP" hash="433715760" urgent="true" tool="c++test" locType="sr" msg="Member function 'ReadAdvancedPuzzle' should be declared as const" lang="cpp" rule="CODSTA-CPP-54" config="1" auth="515817" locStartln="46" locStartPos="17" locEndLn="46" locEndPos="18" locFile="ACW_WordSearch/ACW_WordSearch/WordSearch.cpp" />
-    <StdViol sev="3" ln="50" cat="CODSTA-CPP" hash="433715760" urgent="true" tool="c++test" locType="sr" msg="Member function 'ReadAdvancedDictionary' should be declared as const" lang="cpp" rule="CODSTA-CPP-54" config="1" auth="515817" locStartln="50" locStartPos="17" locEndLn="50" locEndPos="18" locFile="ACW_WordSearch/ACW_WordSearch/WordSearch.cpp" />
-    <StdViol sev="3" ln="99" cat="CODSTA-CPP" hash="433715760" urgent="true" tool="c++test" locType="sr" msg="Member function 'SolvePuzzleAdvanced' should be declared as const" lang="cpp" rule="CODSTA-CPP-54" config="1" auth="515817" locStartln="99" locStartPos="17" locEndLn="99" locEndPos="18" locFile="ACW_WordSearch/ACW_WordSearch/WordSearch.cpp" />
-    <StdViol sev="3" ln="16" cat="MRM" hash="-39558274" urgent="true" tool="c++test" locType="sr" msg="Class 'WordSearch' shall declare a copy constructor" lang="cpp" rule="MRM-49" config="1" auth="515817" locStartln="16" locStartPos="6" locEndLn="16" locEndPos="7" locFile="ACW_WordSearch/ACW_WordSearch/WordSearch.h" />
-  </StdViols>
-</mergePnt>

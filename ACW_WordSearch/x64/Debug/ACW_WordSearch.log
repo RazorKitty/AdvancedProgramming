@@ -1,3 +1,2 @@
-﻿  WordSearch.cpp
-c:\users\drone\source\repos\advancedprogramming\acw_wordsearch\wordsearch.cpp(102): warning C4804: '<': unsafe use of type 'bool' in operation
-  ACW_WordSearch.vcxproj -> C:\Users\Drone\Source\Repos\AdvancedProgramming\x64\Debug\ACW_WordSearch.exe
+﻿  ACW_WordSearch.vcxproj -> C:\Users\515817\Source\Repos\AdvancedProgramming\x64\Debug\ACW_WordSearch.exe
+  ACW_WordSearch.vcxproj -> C:\Users\515817\Source\Repos\AdvancedProgramming\x64\Debug\ACW_WordSearch.pdb (Partial PDB)

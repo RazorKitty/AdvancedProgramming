@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><ResultsSession buildId="Default Project-2018-04-26" date="04/26/18 08:40:57" machine="FEN-052-050" project="Default Project" tag="08143_rule_set" time="2018-04-26T08:40:57+01:00" toolName="C++test" toolVer="10.3.4.129" user="515817">
-   <TestConfig machine="FEN-052-050" name="08143_rule_set" pseudoUrl="c++test.user://08143_rule_set" user="515817"/>
+<?xml version="1.0" encoding="UTF-8"?><ResultsSession buildId="Default Project-2018-05-14" date="05/14/18 20:25:52" machine="FEN-052-066" project="Default Project" tag="08143_rule_set" time="2018-05-14T20:25:52+01:00" toolName="C++test" toolVer="10.3.4.129" user="515817">
+   <TestConfig machine="FEN-052-066" name="08143_rule_set" pseudoUrl="c++test.user://08143_rule_set" user="515817"/>
    <Authors/>
    <VersionInfos>
       <StorageInfo ownerId="com.parasoft.xtest.checkers.api.execution" resultId="IExecutionViolation" ver="2"/>

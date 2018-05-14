@@ -1,8 +1,278 @@
 <->
-<F>c:\users\515817\source\repos\advancedprogramming\acw_wordsearch\WordSearch.h
-<c>MRM-49
-<b>Class 'WordSearch' shall declare a copy constructor
-<l>16
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>MISRA2004-10_1_a
+<b>Implicit conversion between signed and unsigned type shall not be used
+<l>77
+<k>21
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>MISRA2004-10_1_a
+<b>Implicit conversion between signed and unsigned type shall not be used
+<l>86
+<k>28
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>MISRA2004-10_1_a
+<b>Implicit conversion between signed and unsigned type shall not be used
+<l>111
+<k>21
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>MISRA2004-10_1_a
+<b>Implicit conversion between signed and unsigned type shall not be used
+<l>119
+<k>28
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>MISRA2004-10_1_a
+<b>Implicit conversion between signed and unsigned type shall not be used
+<l>143
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>MISRA2004-10_1_a
+<b>Implicit conversion between signed and unsigned type shall not be used
+<l>149
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>MISRA2004-10_1_a
+<b>Implicit conversion between signed and unsigned type shall not be used
+<l>154
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>OPT-04
+<b>Postfix operator applied to variable 'x'; prefer prefix type
+<l>24
+<k>33
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>OPT-04
+<b>Postfix operator applied to variable 'y'; prefer prefix type
+<l>21
+<k>32
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>OPT-04
+<b>Postfix operator applied to variable 'y'; prefer prefix type
+<l>47
+<k>32
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>OPT-04
+<b>Postfix operator applied to variable 'direction'; prefer prefix type
+<l>57
+<k>43
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>OPT-04
+<b>Postfix operator applied to variable 'x'; prefer prefix type
+<l>52
+<k>33
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>OPT-04
+<b>Postfix operator applied to variable 'y'; prefer prefix type
+<l>50
+<k>32
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>MISRA2004-14_9
+<b>Conditional statement 'if' in a function 'ReadAdvancedPuzzle' should be followed by a block
+<l>61
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>MISRA2004-14_9
+<b>An 'else' statement in a function 'ReadAdvancedPuzzle' shall be followed by a block 
+<l>64
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>CODSTA-26
+<b>Literal constant '8' is used
+<l>57
+<k>40
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>OPT-04
+<b>Postfix operator applied to variable 'dictionaryVisits'; prefer prefix type
+<l>78
+<k>3
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>OPT-04
+<b>Postfix operator applied to variable 'cellVisits'; prefer prefix type
+<l>81
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>OPT-04
+<b>Postfix operator applied to variable 'letter'; prefer prefix type
+<l>86
+<k>73
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>OPT-04
+<b>Postfix operator applied to variable 'direction'; prefer prefix type
+<l>83
+<k>45
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>OPT-04
+<b>Postfix operator applied to variable 'x'; prefer prefix type
+<l>80
+<k>34
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>OPT-04
+<b>Postfix operator applied to variable 'y'; prefer prefix type
+<l>79
+<k>33
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>OPT-04
+<b>Postfix operator applied to variable 'word'; prefer prefix type
+<l>77
+<k>53
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>METRICS-18
+<b>Function 'SolvePuzzleSimple' has high Cyclomatic Complexity value: 13
+<l>76
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>MISRA2004-14_9
+<b>Conditional statement 'if' in a function 'SolvePuzzleSimple' should be followed by a block
+<l>89
+<k>8
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>CODSTA-26
+<b>Literal constant '8' is used
+<l>83
+<k>42
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>MISRA2004-14_4
+<b>Do not use the 'goto' statement
+<l>90
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>MISRA2004-14_4
+<b>Do not use the 'goto' statement
+<l>94
 <k>7
 <s>false
 <N>
@@ -10,30 +280,180 @@
 <L>0
 <->
 <F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
-<c>CODSTA-CPP-54
-<b>Member function 'ReadAdvancedPuzzle' should be declared as const
-<l>46
-<k>18
+<c>OPT-04
+<b>Postfix operator applied to variable 'dictionaryVisits'; prefer prefix type
+<l>112
+<k>3
 <s>false
 <N>
 <f>
 <L>0
 <->
 <F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
-<c>CODSTA-CPP-54
-<b>Member function 'ReadAdvancedDictionary' should be declared as const
-<l>50
-<k>18
+<c>OPT-04
+<b>Postfix operator applied to variable 'cellVisits'; prefer prefix type
+<l>115
+<k>5
 <s>false
 <N>
 <f>
 <L>0
 <->
 <F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
-<c>CODSTA-CPP-54
-<b>Member function 'SolvePuzzleAdvanced' should be declared as const
-<l>99
-<k>18
+<c>OPT-04
+<b>Postfix operator applied to variable 'letter'; prefer prefix type
+<l>119
+<k>73
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>OPT-04
+<b>Postfix operator applied to variable 'direction'; prefer prefix type
+<l>117
+<k>45
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>OPT-04
+<b>Postfix operator applied to variable 'x'; prefer prefix type
+<l>114
+<k>34
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>OPT-04
+<b>Postfix operator applied to variable 'y'; prefer prefix type
+<l>113
+<k>33
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>OPT-04
+<b>Postfix operator applied to variable 'word'; prefer prefix type
+<l>111
+<k>53
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>MISRA2004-14_9
+<b>Conditional statement 'if' in a function 'SolvePuzzleAdvanced' should be followed by a block
+<l>121
+<k>8
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>CODSTA-26
+<b>Literal constant '8' is used
+<l>117
+<k>42
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>MISRA2004-14_4
+<b>Do not use the 'goto' statement
+<l>122
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>MISRA2004-14_4
+<b>Do not use the 'goto' statement
+<l>126
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>OPT-04
+<b>Postfix operator applied to variable 'wordsFound'; prefer prefix type
+<l>145
+<k>4
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>OPT-04
+<b>Postfix operator applied to variable 'i'; prefer prefix type
+<l>143
+<k>47
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>OPT-04
+<b>Postfix operator applied to variable 'i'; prefer prefix type
+<l>149
+<k>47
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>OPT-04
+<b>Postfix operator applied to variable 'i'; prefer prefix type
+<l>154
+<k>47
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>MISRA2004-14_9
+<b>Conditional statement 'if' in a function 'WriteResults' should be followed by a block
+<l>144
+<k>3
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>MISRA2004-14_9
+<b>Conditional statement 'if' in a function 'WriteResults' should be followed by a block
+<l>150
+<k>3
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\515817\Source\Repos\AdvancedProgramming\ACW_WordSearch\WordSearch.cpp
+<c>MISRA2004-14_9
+<b>Conditional statement 'if' in a function 'WriteResults' should be followed by a block
+<l>155
+<k>3
 <s>false
 <N>
 <f>

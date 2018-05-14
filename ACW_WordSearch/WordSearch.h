@@ -25,7 +25,7 @@ class WordSearch {
 	};
 	Cell** advancedGrid;
 	int gridSize;
-	char simpleGrid[9][9] = {};
+	char** simpleGrid;
 	const char* puzzleName = "wordsearch_grid.txt";
 	const char* dictionaryName = "dictionary.txt";
 	const char* outputFile;
@@ -37,8 +37,8 @@ class WordSearch {
 public:
 	explicit WordSearch(const char * const filename);
 	~WordSearch();
-	WordSearch& operator=(WordSearch&);
-	WordSearch(const WordSearch&);
+	WordSearch& operator=(WordSearch& wordSearch);
+	WordSearch(const WordSearch& wordSearch);
 	void ReadSimplePuzzle();
 	void ReadSimpleDictionary();
 	void ReadAdvancedPuzzle();

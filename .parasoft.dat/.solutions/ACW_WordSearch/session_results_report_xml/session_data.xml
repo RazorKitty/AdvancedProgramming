@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><ResultsSession>
-   <SessionData configName="08143_rule_set" enabledAnalysis="" enabledHandlers="com.parasoft.xtest.checkers.api.scope.factory" header="?? ?? ??false??false??" runId="" startTime="1524728457398" tool="c++test">
+   <SessionData configName="08143_rule_set" enabledAnalysis="" enabledHandlers="com.parasoft.xtest.checkers.api.scope.factory" header="?? ?? ??false??false??" runId="" startTime="1526325952202" tool="c++test">
       <Authors/>
       <Selection>
-         <Res id="ACW_WordSearch"/>
+         <Res id="ACW_WordSearch/ACW_WordSearch"/>
       </Selection>
       <XmlDataFiles/>
    </SessionData>

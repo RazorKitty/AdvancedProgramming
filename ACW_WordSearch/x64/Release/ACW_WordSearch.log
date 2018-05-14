@@ -1,7 +1,7 @@
-﻿  WordSearch.cpp
+﻿  Cell.cpp
+  Main.cpp
+  WordSearch.cpp
   Generating code
-  2 of 338 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+  All 334 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Finished generating code
-  ACW_WordSearch.vcxproj -> C:\Users\Drone\Source\Repos\AdvancedProgramming\x64\Release\ACW_WordSearch.exe
+  ACW_WordSearch.vcxproj -> C:\Users\515817\Source\Repos\AdvancedProgramming\x64\Release\ACW_WordSearch.exe
