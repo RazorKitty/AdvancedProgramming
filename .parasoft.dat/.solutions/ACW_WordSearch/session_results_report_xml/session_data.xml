@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><ResultsSession>
-   <SessionData configName="08143 rule set" enabledAnalysis="Static" enabledHandlers="com.parasoft.xtest.checkers.api.standards.factory;com.parasoft.xtest.checkers.api.scope.factory;com.parasoft.xtest.checkers.api.metrics.factory" header="?? ?? ??false??false??" runId="" startTime="1526387532370" tool="c++test">
+   <SessionData configName="08143 rule set" enabledAnalysis="Static" enabledHandlers="com.parasoft.xtest.checkers.api.standards.factory;com.parasoft.xtest.checkers.api.scope.factory;com.parasoft.xtest.checkers.api.metrics.factory" header="?? ?? ??false??false??" runId="" startTime="1526389595544" tool="c++test">
       <Authors/>
       <Selection>
          <Res id="ACW_WordSearch/ACW_WordSearch"/>
@@ -8,7 +8,7 @@
    </SessionData>
    <Locations/>
    <CodingStandards>
-      <HistoryData authTsks="" authors="" cvdLn="321" startTime="1526387532370" totLn="321" totTsks="0"/>
+      <HistoryData authTsks="" authors="" cvdLn="321" startTime="1526389595544" totLn="321" totTsks="0"/>
       <TestedFilesDetails>
          <Total name="Suppressed / Total" supp="0" total="0">
             <Project name="ACW_WordSearch" supp="0" total="0">

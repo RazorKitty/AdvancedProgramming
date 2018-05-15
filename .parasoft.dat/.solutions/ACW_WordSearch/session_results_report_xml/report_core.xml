@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><ResultsSession buildId="Default Project-2018-05-15" date="05/15/18 13:32:12" machine="FEN-052-009" project="Default Project" tag="08143 rule set" time="2018-05-15T13:32:12+01:00" toolName="C++test" toolVer="10.3.4.129" user="515817">
+<?xml version="1.0" encoding="UTF-8"?><ResultsSession buildId="Default Project-2018-05-15" date="05/15/18 14:06:35" machine="FEN-052-009" project="Default Project" tag="08143 rule set" time="2018-05-15T14:06:35+01:00" toolName="C++test" toolVer="10.3.4.129" user="515817">
    <TestConfig machine="FEN-052-009" name="08143 rule set" pseudoUrl="c++test.user://08143 rule set" user="515817"/>
    <Authors/>
    <VersionInfos>
@@ -22,7 +22,7 @@
          <ScopeProjectInfo fltFiles="5" fltLns="321" project="ACW_WordSearch/ACW_WordSearch" totFiles="5" totLns="321"/>
       </ProjectInformations>
    </Scope>
-   <CodingStandards ownerId="com.parasoft.xtest.checkers.api.standards" time="0:00:07">
+   <CodingStandards ownerId="com.parasoft.xtest.checkers.api.standards" time="0:00:05">
       <Goal mode="1" name="Static"/>
       <Projects>
          <Project bdCheckedFiles="0" bdTotalFiles="0" checkedFiles="5" checkedLns="321" name="ACW_WordSearch" qfixErrs="0" suppErrs="0" totErrs="0" totFiles="5" totLns="321"/>
@@ -629,7 +629,7 @@
       <mergePnt id="historyStandards"/>
       <mergePnt id="testedFilesDetails"/>
    </CodingStandards>
-   <Metrics ownerId="com.parasoft.xtest.checkers.api.standards" time="0:00:07">
+   <Metrics ownerId="com.parasoft.xtest.checkers.api.standards" time="0:00:05">
       <mergePnt id="metrics"/>
    </Metrics>
    <AssocUrls/>
