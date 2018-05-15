@@ -12,8 +12,8 @@ public:
 	Cell();
 	~Cell();
 	Cell(const Cell &cell);
-	Cell& operator=(Cell cell);
-	void linkCell(Cell *cell, const int &direction);
+	Cell& operator=(Cell &cell);
+	void linkCell(Cell * const cell, const int &direction);
 	Cell* GetCell(const int &direction) const;
 };
 

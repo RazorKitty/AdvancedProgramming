@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mergePnt id="csViolations">
+  <StdViols>
+    <StdViol sev="3" ln="17" cat="CODSTA-CPP" hash="80437605" urgent="true" tool="c++test" locType="sr" msg="Declare parameter 'cell' as const" lang="cpp" rule="CODSTA-CPP-53" config="1" auth="515817" locStartln="17" locStartPos="27" locEndLn="17" locEndPos="28" locFile="ACW_WordSearch/ACW_WordSearch/Cell.cpp" />
+  </StdViols>
+</mergePnt>

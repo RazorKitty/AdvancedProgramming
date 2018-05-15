@@ -9,17 +9,12 @@ void Cell::Letter(const char l) {
 	letter = l;
 }
 
-Cell::Cell() : letter('\0'), agacentCells{ {nullptr} } {}
+Cell::Cell() : agacentCells{ {nullptr} }, letter('\0') {}
 
 Cell::~Cell() {
-	//for (int i = 0; i < 8; i++)
-	//{
-	//	if (agacentCells[i])
-	//		delete &agacentCells[i];
-	//}
 }
 
-void Cell::linkCell(Cell * cell, const int & direction) {
+void Cell::linkCell(Cell *  const cell, const int & direction) {
 	agacentCells[direction] = cell;
 }
 

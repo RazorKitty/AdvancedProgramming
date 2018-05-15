@@ -9,29 +9,23 @@ WordSearch::WordSearch(const char * const filename) : advancedGrid(nullptr), sim
 }
 
 WordSearch::~WordSearch() {
-	//if (advancedGrid)
-	//{
-	//	for (int y = 0; y < gridSize; ++y)
-	//	{
-	//		for (int x = 0; x < gridSize; ++x)
-	//		{
-	//			delete &advancedGrid[y][x];
-	//		}
-	//	}
-	//	delete[] advancedGrid;
-	//}
+	if (advancedGrid)
+	{
+		for (int y = 0; y < gridSize; ++y)
+		{
+			delete[] advancedGrid[y];
+		}
+		delete[] advancedGrid;
+	}
 	
-	//if (simpleGrid)
-	//{
-	//	for (int y = 0; y < gridSize; ++y)
-	//	{
-	//		for (int x = 0; x < gridSize; ++x)
-	//		{
-	//			delete &simpleGrid[y][x];
-	//		}
-	//	}
-	//	delete[] simpleGrid;
-	//}
+	if (simpleGrid)
+	{
+		for (int y = 0; y < gridSize; ++y)
+		{
+			delete simpleGrid[y];
+		}
+		delete[] simpleGrid;
+	}
 }
 
 void WordSearch::ReadSimplePuzzle() {
