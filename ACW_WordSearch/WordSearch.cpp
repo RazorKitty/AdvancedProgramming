@@ -87,7 +87,7 @@ void WordSearch::ReadAdvancedDictionary() const {
 
 void WordSearch::SolvePuzzleSimple() {
 	for (int word = 0; word < simpleDictionary.size(); ++word) {
-		dictionaryVisits++;
+		++dictionaryVisits;
 		for (int y = 0; y < gridSize; ++y) {
 			for (int x = 0; x < gridSize; ++x) {
 				++cellVisits;
@@ -98,7 +98,7 @@ void WordSearch::SolvePuzzleSimple() {
 						for (int letter = 1; letter < simpleDictionary[word].word.size(); ++letter) {
 							_y += directionalOffSets[direction][0];
 							_x += directionalOffSets[direction][1];
-							if (gridSize <= _y || _y < 0 || gridSize <= _x || _x < 0 || cellVisits++ && simpleGrid[_y][_x] != simpleDictionary[word].word[letter])
+							if (gridSize <= _y || _y < 0 || gridSize <= _x || _x < 0 || ++cellVisits && simpleGrid[_y][_x] != simpleDictionary[word].word[letter])
 								goto NextDirection;
 						}
 						simpleDictionary[word].y = y;
@@ -141,7 +141,6 @@ void WordSearch::SolvePuzzleAdvanced() {
 					}
 				}
 			}
-
 		}
 	NextWord:
 		continue;
