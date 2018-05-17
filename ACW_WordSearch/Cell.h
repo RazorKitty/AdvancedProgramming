@@ -2,7 +2,7 @@
 #include <fstream>
 class Cell
 {
-	Cell* agacentCells[8] = { nullptr };
+	Cell* adjacentCells[8] = { nullptr };
 	char letter;
 
 

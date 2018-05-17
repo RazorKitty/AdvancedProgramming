@@ -9,16 +9,16 @@ void Cell::Letter(const char l) {
 	letter = l;
 }
 
-Cell::Cell() : agacentCells{ {nullptr} }, letter('\0') {}
+Cell::Cell() : adjacentCells{ {nullptr} }, letter('\0') {}
 
 Cell::~Cell() {
 }
 
 void Cell::linkCell(Cell *  const cell, const int & direction) {
-	agacentCells[direction] = cell;
+	adjacentCells[direction] = cell;
 }
 
 Cell* Cell::GetCell(const int &direction) const {
-		return agacentCells[direction];
+		return adjacentCells[direction];
 }
 
